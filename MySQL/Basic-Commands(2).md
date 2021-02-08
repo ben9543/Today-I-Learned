@@ -65,7 +65,7 @@ GROUP BY CountryCode;
 
 10. HAVING
 
-- Similar concept with WHERE
+- Similar concept with `WHERE`
 
 - Use when we want to give conditions to `GROUP BY`
 
