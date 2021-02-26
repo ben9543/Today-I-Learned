@@ -44,3 +44,11 @@
     | undoing committed changes  |  undoing uncommitted changes |
     | public branch |    private branch   |
     | effects on the commit history | effects on the working directory |
+
+### What if I want to 'undo' `git reset`?
+
+- [Stackoverflow](https://stackoverflow.com/questions/2510276/how-to-undo-git-reset)
+
+- Use `git reflog` && `git reset HEAD@{<NUMBER_OF_STEPS>}`
+
+- To see commits for the specific branches, use `git reflog show <BRANCH_NAME>`
