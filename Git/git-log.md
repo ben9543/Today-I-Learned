@@ -1,4 +1,4 @@
-# Tips for `git log`
+# Tips for Git log
 
 1. `git log -p -2` : Shows exact changes in detail
 

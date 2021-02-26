@@ -10,29 +10,35 @@
 
 - Command: `git rebase <branch>`
 
+- Make sure to checkout to the branch that you want to **attach behind**
+
+- For example, if you want to rebase `test` branch to `main` branch, need to checkout to `test` and rebase it to `main`.
+
 - Create `test` branch
 
-    ![](rebase/img/1.png)
+    ![](img/rebase/1.png)
 
 - Make a commit (C2)
 
-    ![](rebase/img/2.png)
+    ![](img/rebase/2.png)
 
 - Checkout to main branch and make a commit (C3)
 
-    ![](rebase/img/3.png)
+    ![](img/rebase/3.png)
 
 - Checkout to test branch and rebase it to main branch (`git checkout test && git rebase main`)
 
-    ![](rebase/img/4.png)
+    ![](img/rebase/4.png)
 
 - Checkout to main branch and rebase (or merge) it to test branch (`git checkout main && git rebase|merge test`)
 
-    ![](rebase/img/5.png)
+    ![](img/rebase/5.png)
+
+- You may want to delete `test` for cleaner git history.
 
 - Used commands
 
-    ![](rebase/img/6.png)
+    ![](img/rebase/6.png)
 
 ### 2. More Interesting Rebases
 
