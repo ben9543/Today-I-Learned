@@ -40,7 +40,7 @@
 - Table
 
     | git revert | git reset |
-    |------------|---------|
+    |------------|-----------|
     | undoing committed changes  |  undoing uncommitted changes |
     | public branch |    private branch   |
     | effects on the commit history | effects on the working directory |

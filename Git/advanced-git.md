@@ -22,7 +22,7 @@
 
     * `git cat-file -t <HASH>` : Check the type of the object.
 
-- Rebase
+- Rebase (from 20:00)
 
 - Interactive Rebase
 
