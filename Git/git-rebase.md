@@ -16,29 +16,29 @@
 
 - Create `test` branch
 
-    ![](img/rebase/1.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/1.PNG)
 
 - Make a commit (C2)
 
-    ![](img/rebase/2.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/2.PNG)
 
 - Checkout to main branch and make a commit (C3)
 
-    ![](img/rebase/3.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/3.PNG)
 
 - Checkout to test branch and rebase it to main branch (`git checkout test && git rebase main`)
 
-    ![](img/rebase/4.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/4.PNG)
 
 - Checkout to main branch and rebase (or merge) it to test branch (`git checkout main && git rebase|merge test`)
 
-    ![](img/rebase/5.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/5.PNG)
 
 - You may want to delete `test` for cleaner git history.
 
 - Used commands
 
-    ![](img/rebase/6.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/6.PNG)
 
 ### 2. More Interesting Rebases
 
