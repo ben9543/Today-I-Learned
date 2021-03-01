@@ -29,8 +29,8 @@
 
 - Before moving `HEAD`
 
-    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/2.PNG)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/refs/2.PNG)
 
 - After moving `HEAD` with -f option
 
-    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/3.PNG)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/refs/3.PNG)
