@@ -15,7 +15,7 @@
 
 - For example, checking out to `main^` means checking out to the first parent of main. `main^^` means checking out to the second parent of main.
 
-    ![](img/refs/1.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/refs/1.PNG)
 
 - You can also reference `HEAD` as a relative ref by doing `HEAD^`
 
@@ -29,8 +29,8 @@
 
 - Before moving `HEAD`
 
-    ![](img/refs/2.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/2.PNG)
 
 - After moving `HEAD` with -f option
 
-    ![](img/refs/3.png)
+    ![](https://git-static.s3.ap-northeast-2.amazonaws.com/rebase/3.PNG)
