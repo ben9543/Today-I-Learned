@@ -6,16 +6,18 @@
 
 - Example
 
-```c++
+    ```c++
 
-void changeName(Object &obj, std::string name){
-    obj.name = name;
-}
+    void changeName(Object &obj, std::string name){
+        obj.name = name;
+    }
 
-int main(){
-    Object obj("sam");
-    changeName(obj, "ben");
-    return 0;
-}
+    int main(){
+        Object obj("sam");
+        changeName(obj, "ben");
+        return 0;
+    }
 
-```
+    ```
+
+- Using `const` can be useful (or sometimes necessary) when passing objects by reference
