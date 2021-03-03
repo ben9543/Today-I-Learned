@@ -1,4 +1,5 @@
-# Git & Github
+![](https://git-scm.com/images/logo@2x.png)
+# Git
 
 ## Useful resources
 
