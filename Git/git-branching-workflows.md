@@ -4,7 +4,7 @@
 
 ## Branching
 
-### 1. What is branching?
+### What is branching?
 
 - Branching means you diverge from the main line of development and continue to do work without messing with that main line.
 
@@ -12,7 +12,7 @@
 
 - Git stores data as a series of snapshots.
 
-### 3. Local Branching
+### Local Branching
 
 #### 1. Long-Running Branches
 
