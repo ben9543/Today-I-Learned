@@ -1,3 +1,5 @@
+![](https://www.vitecinc.com/wp-content/uploads/2016/04/Motivation-800x400.jpg)
+
 # Today I Learned
 
 ## TLI is ...
