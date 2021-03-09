@@ -12,6 +12,7 @@
         float b; // 4bytes => allocated to Stack
     }
     ```
+
 ### Dynamic memory allocation
 
 - Programs can not access to heap directly. The way to access to heap memory is using **pointers**.
@@ -38,3 +39,47 @@
 - Even though you make the pointer as NULL, it doesn't deallocate the memory on heap.
 
 - You need to delete the dynamically located memory with `delete` keyword.
+
+
+## 2. Physical Data Structure vs Logical Data Structure
+
+### Physical Data Structure
+
+#### 1. Array
+
+- Array can be inside either stack or heap(pointing dynamically allocated memory by using a pointer)
+
+#### 2. Linked List
+
+- Always inside of heap memory
+
+### Logical Data Structure
+
+#### 1. Linear Data Structure
+
+- Stack
+
+- Queue
+
+#### 2. Non-linear Data Structure
+
+- Trees
+
+- Graph
+
+#### 3. Table Data Structure
+
+- Hash Table
+
+#### What is the difference from Physical Data Structure?
+
+- We use one of Physical Data Structures `to implement` Logical Data Structures
+
+
+## 3. Abstract Data Type (ADT)
+
+### Any data type in any programming language will have ...
+
+1. Representations of Data
+
+2. Operation on Data
