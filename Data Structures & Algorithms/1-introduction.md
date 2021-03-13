@@ -83,3 +83,7 @@
 1. Representations of Data
 
 2. Operation on Data
+
+## 4. Time and Space Complexity
+
+- Basically means how many times it takes to complete the process
