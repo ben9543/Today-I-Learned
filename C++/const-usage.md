@@ -28,10 +28,11 @@
 
 - `X const* x` = `const X* x`
 
+- Suggesting that `X` and `const` are alternative.
 
 ### Examples
 
-```c
+```C
 /* when p is const */
 int main(){
     int* const p; // 'p' is const
