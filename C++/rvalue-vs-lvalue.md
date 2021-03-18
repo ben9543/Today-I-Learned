@@ -26,7 +26,6 @@
 
     5. A const object (a nonmodifiable l-value).
 
-
     6. The result of indirection through a pointer, provided that it isn’t a function pointer.
 
     7. The result of member access through pointer(-> or .)
@@ -110,7 +109,7 @@ int main()
 }
 ```
 
-- `int& a` means a is going to store a reference of integer type value, which is a L-Value
+- `int& a` means `a` is going to store a reference of integer type value, which is a L-Value
 
 - The second line causes an error because we are storing a L-Value reference to `int& a`
 
