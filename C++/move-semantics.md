@@ -98,9 +98,9 @@ class String{
         m_Data = new char[m_Size];
         memcpy(m_Data, other.m_Data, m_Size);
     };
-    String(String&& other) noexcept
+    String(String&& other) noexcept // Add an constructor accepts R-Value
     {
-        printf("Moved!\n"); // Add an constructor
+        printf("Moved!\n");
         m_Size = other.m_Size;
         m_Data = other.m_Data; // Instead of allocating new data and copying everything into it, we can just making it to point the same block of data
 
