@@ -151,4 +151,7 @@ int main()
 
 - How many thread do I need to create? => As many as the problem numbers that I need to solve. => If assigned too many threads, then it is end up getting too many context switching and wasting cpu memory. This is called `oversubscription`
 
-- `std::thread::hardware_concurrency()` gives us the numebr of threads that my computer's cpu can run.
+- `std::thread::hardware_concurrency()` gives us the number of threads that my computer's cpu can run.
+
+
+## 3. Data Race and Mutex
