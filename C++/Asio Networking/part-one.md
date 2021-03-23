@@ -11,6 +11,14 @@
 
 ## Concepts that I did not understand through the lecture
 
-1. `std::thread`
+- [x] `std::thread`
 
-2. `std::vector.data()`
+- [ ] `std::vector.data()`
+
+- [ ] `std::size_t`
+
+- [x] R Value Reference
+
+- [ ] `static_assert()`
+
+- [ ] `std::is_standard_layout<T>::value`
