@@ -22,6 +22,5 @@
         // output: Benjt stop
         return 0;
     }
-
     ```
 - The output of the example is `Benjt stop` because it copied 4 bytes of data("Benjamin Kweon") into `str`

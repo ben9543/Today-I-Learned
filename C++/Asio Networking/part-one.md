@@ -13,6 +13,10 @@
 
 - [x] `std::thread`
 
+- [x] `std::deque`
+
+- [x] `std::mutex`
+
 - [ ] `std::vector.data()`
 
 - [ ] `std::size_t`
