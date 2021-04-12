@@ -29,3 +29,7 @@
     * We can see that Windows PC(`192.168.0.3`) is asking for `google.com`'s IP address to DNS server(`219.250.36.130`). The `source port` number would be randomly chosen port number between Dynamic and/or Private Ports(49152-65535). The `destination port` number would be always 53.
 
     * Once the DNS server finishes resolving the domain name and finds out the IP address of `google.com`, it sends the IP address back to my Windows PC(`192.168.0.3`).
+
+## Association with DHCP
+
+- Through DHCP, the device will learn the default gateway and DNS server information.
