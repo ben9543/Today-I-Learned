@@ -8,4 +8,10 @@
 
 - expect
 
+    * toHaveProperty()
+
+    * toBe()
+
+    * toEqual()
+
 - beforeEeach
