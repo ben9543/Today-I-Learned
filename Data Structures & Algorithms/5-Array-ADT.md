@@ -25,25 +25,80 @@
 
 ### - The Set of Operations of Data
 
-1. Display()
+```cpp
+struct Array
+{
+    int size;
+    int length;
+    int* A;    
+};
+```
 
-2. Add(x) / Append(x)
+#### 1. Display()
 
-3. Insert(index x)
+```cpp
+for(int i = 0; i < arr.length; i++)
+    cout << arr.A[i] << endl;
+```
 
-4. Delete(index)
+#### 2. Add(x) / Append(x)
+```cpp
+arr.A[length] = x;
+arr.length++;
+```
 
-5. Search(x)
+#### 3. Insert(index, x)
 
-6. Get(index)
+- We need to shift all the elements from the index
 
-7. Set(index, x)
+- Then replace A[4] to x
 
-8. Max() / Min()
+- But we should check whether the index is exceeding its size or length.
 
-9. Reverse()
+```cpp
+if( (index >= 0) && (index <= arr.length) )
+{
+    for(int i = arr.length; i > index; i--)
+        arr.A[i] = A[i-1];
+    arr.A[index] = x;
+    arr.length++;
+}
+```
 
-10. Shift() / Rotate()
+#### 4. Delete(index)
+
+- i starts from index
+
+- i should be less than length-1
+
+- Set arbitrary x as A[index] (will be returned at the last)
+
+- For loop will handle A[index]
+
+```cpp
+int x = 0;
+if( (index >= 0) && (index <= arr.length) )
+{
+    x = arr.A[index];
+    for(int i = index; i < arr.length - 1; i++)
+        A[i] = A[i+1]
+    arr.length--;
+    return x;
+}
+return 0;
+```
+
+#### 5. Search(x)
+
+#### 6. Get(index)
+
+#### 7. Set(index, x)
+
+#### 8. Max() / Min()
+
+#### 9. Reverse()
+
+#### 10. Shift() / Rotate()
 
 ### Two ways of creating an Array
 
