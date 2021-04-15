@@ -16,8 +16,8 @@
 #### ✅ 8. IIFE, Modules and Namespaces
 #### ✅ 9. Message Queue and Event Loop
 #### ✅ 10. setTimeout, setInterval and requestAnimationFrame
-#### 11. JavaScript Engines
-#### 12. Bitwise Operators, Type Arrays and Array Buffers
+#### ✅ 11. JavaScript Engines
+#### ✅ 12. Bitwise Operators, Type Arrays and Array Buffers
 #### 13. DOM and Layout Trees
 #### 14. Factories and Classes
 #### 15. this, call, apply and bind
