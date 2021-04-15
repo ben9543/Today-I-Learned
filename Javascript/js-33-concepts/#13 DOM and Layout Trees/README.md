@@ -12,5 +12,4 @@
 
 ### What is DOM?
 
-
 ## Layout Trees
