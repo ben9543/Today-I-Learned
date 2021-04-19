@@ -1,13 +1,11 @@
 ![](https://git-scm.com/images/logo@2x.png)
 # Git
 
-## Posts
+### [Git Book Study](https://bundy-mundi.github.io/Today-I-Learned/Git/git-book)
 
-###[Git Book Study](https://bundy-mundi.github.io/Today-I-Learned/Git/git-book)
+### [Advance Concepts](https://bundy-mundi.github.io/Today-I-Learned/Git/advanced-concepts)
 
-###[Advance Concepts](https://bundy-mundi.github.io/Today-I-Learned/Git/advanced-concepts)
-
-###[Command Tips](https://bundy-mundi.github.io/Today-I-Learned/Git/commands-tips)
+### [Command Tips](https://bundy-mundi.github.io/Today-I-Learned/Git/commands-tips)
 
 ## Useful resources
 
