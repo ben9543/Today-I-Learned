@@ -5,13 +5,15 @@
 
 - [Typescript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
 
+- [HowToDoInJava - Typescript Tutorial](https://howtodoinjava.com/typescript/)
+
 - [Typescript Playground](https://www.typescriptlang.org/play)
 
 ## Orders
 
 #### 1. ✅ The Basics
 
-#### 2. Everyday Types
+#### 2. ✅ Everyday Types
 
 #### 3. Narrowing
 
