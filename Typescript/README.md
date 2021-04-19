@@ -11,9 +11,9 @@
 
 ## Orders
 
-#### 1. ✅ The Basics
+#### 1. ✅ [The Basics](https://bundy-mundi.github.io/Today-I-Learned/Typescript/1-the-basics)
 
-#### 2. ✅ Everyday Types
+#### 2. ✅ [Everyday Types](https://bundy-mundi.github.io/Today-I-Learned/Typescript/2-everyday-types)
 
 #### 3. Narrowing
 

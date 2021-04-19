@@ -2,6 +2,13 @@
 
 ## ADT
 
+### Two ways of creating an Array
+
+1. Stack
+
+2. Heap
+
+
 ### - Representation of Data
 
 1. Array Space
@@ -23,7 +30,7 @@
     ```
 
 
-### - The Set of Operations of Data
+### - The Set of Operations of Data (1)
 
 ```cpp
 struct Array
@@ -90,18 +97,22 @@ return 0;
 
 #### 5. Search(x)
 
-#### 6. Get(index)
+- Binary Search
 
-#### 7. Set(index, x)
+    * Only can apply to a sorted array.
 
-#### 8. Max() / Min()
+    * Array size and length have to be the same.
 
-#### 9. Reverse()
+    * low => the first index of an array.
 
-#### 10. Shift() / Rotate()
+    * high => the last index of an array.
 
-### Two ways of creating an Array
+    * mid => (low + high) / 2
 
-1. Stack
+    * key => the element we try to find out.
 
-2. Heap
+    * If Array[mid] > key => high = mid - 1 (shifting the index to the left)
+
+    * If Array[mid] < key => low = mid _ 1 (shifting the index to the right)
+
+    * If Array[mid] = key => return mid (The key value's index is found)
