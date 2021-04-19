@@ -1,5 +1,7 @@
 # Th Secret Life of Objects (about OOP)
 
+- [Textbook](https://eloquentjavascript.net/06_object.html)
+
 ## Encapsulation
 
 - The core idea in object-oriented programming is to divide programs into smaller pieces and make each piece responsible for managing its own state.
