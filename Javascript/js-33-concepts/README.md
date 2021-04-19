@@ -18,7 +18,7 @@
 #### ✅ 10. setTimeout, setInterval and requestAnimationFrame
 #### ✅ 11. JavaScript Engines
 #### ✅ 12. Bitwise Operators, Type Arrays and Array Buffers
-#### 13. DOM and Layout Trees
+#### ✅ 13. DOM and Layout Trees
 #### 14. Factories and Classes
 #### 15. this, call, apply and bind
 #### 16. new, Constructor, instanceof and Instances
