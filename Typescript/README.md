@@ -15,7 +15,7 @@
 
 #### 2. ✅ [Everyday Types](https://bundy-mundi.github.io/Today-I-Learned/Typescript/2-everyday-types)
 
-#### 3. Narrowing
+#### 3. ✅ [Narrowing](https://bundy-mundi.github.io/Today-I-Learned/Typescript/3-narrowing)
 
 #### 4. More on Functions
 
