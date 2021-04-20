@@ -1,26 +1,3 @@
-# Blog Posts
-
-### [Blockchain](https://bundy-mundi.github.io/Today-I-Learned/Blockchain)
-
-### [Git & Github](https://bundy-mundi.github.io/Today-I-Learned/Git)
-
-### [JavaScript](https://bundy-mundi.github.io/Today-I-Learned/Javascript)
-
-### [TypeScript](https://bundy-mundi.github.io/Today-I-Learned/Typescript)
-
-### [C++](https://bundy-mundi.github.io/Today-I-Learned/C++)
-
-### [Java](https://bundy-mundi.github.io/Today-I-Learned/Java)
-
-### [Go](https://bundy-mundi.github.io/Today-I-Learned/Go)
-
-### College Works
-
-- [PHP (CS 85)](https://bundy-mundi.github.io/Today-I-Learned/PHP/college)
-
-- [JavaScript (CS 81)](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/vanilla-js/college)
-
-
 # Who am I?
 
 - 👦 I am **Ben Kweon**, and I was born in **South Korea** in April 3rd, 1995.
@@ -47,3 +24,26 @@
 - Should be one day one commit
 
 - Every text has to be written in English (for better communication skills in the future)
+
+
+# Blog Posts
+
+### [Blockchain](https://bundy-mundi.github.io/Today-I-Learned/Blockchain)
+
+### [Git & Github](https://bundy-mundi.github.io/Today-I-Learned/Git)
+
+### [JavaScript](https://bundy-mundi.github.io/Today-I-Learned/Javascript)
+
+### [TypeScript](https://bundy-mundi.github.io/Today-I-Learned/Typescript)
+
+### [C++](https://bundy-mundi.github.io/Today-I-Learned/C++)
+
+### [Java](https://bundy-mundi.github.io/Today-I-Learned/Java)
+
+### [Go](https://bundy-mundi.github.io/Today-I-Learned/Go)
+
+### College Works
+
+- [PHP (CS 85)](https://bundy-mundi.github.io/Today-I-Learned/PHP/college)
+
+- [JavaScript (CS 81)](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/vanilla-js/college)
