@@ -9,3 +9,5 @@
 4. [Module 4](https://bundy-mundi.github.io/Today-I-Learned/PHP/college/module-4)
 
 5. [Module 5](https://bundy-mundi.github.io/Today-I-Learned/PHP/college/module-5)
+
+6. [Module 6](https://bundy-mundi.github.io/Today-I-Learned/PHP/college/module-6)
