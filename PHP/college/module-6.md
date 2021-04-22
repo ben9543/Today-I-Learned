@@ -24,24 +24,30 @@
 
 ## Checking the validity of files
 
-- file_exists()
+- `file_exists()`
 
-- is_writeable()
+- `is_writeable()`
 
-- is_readable()
+- `is_readable()`
 
 ## Wrting & Reading from files
 
-- fopen()
+### Classic way
 
-- fread()
+- `fopen($filepath)`
 
-- fwrite()
+- `fread($filestream)`
 
-- fclose()
+- `fwrite($filestream)`
+
+- `fclose()`
+
+### Handy way
 
 - `file_get_contents($file)`
 
 - `file_put_contents($file, $content, $flag)`: $content can be either a string, an array or a stream resource.
 
     * `FILE_APPEND`(flag): If file filename already exists, append the data to the file instead of overwriting it.
+
+- `readfile($path)`: It reads file contents and 'echo' it right away. Returns `false` if the function failed. 
