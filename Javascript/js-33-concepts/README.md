@@ -19,8 +19,8 @@
 #### ✅ [11. JavaScript Engines](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/11-javascript-engines)
 #### ✅ [12. Bitwise Operators, Type Arrays and Array Buffers](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/12-bitwise-operators)
 #### ✅ [13. DOM and Layout Trees](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/13-DOM-and-layout-trees)
-#### [14. Factories and Classes](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/14-factories-and-classes)
-#### 15. this, call, apply and bind
+#### ✅ [14. Factories and Classes](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/14-factories-and-classes)
+#### 15.[ this, call, apply and bind](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/15-this-call-apply-bind)
 #### 16. new, Constructor, instanceof and Instances
 #### 17. Prototype Inheritance and Prototype Chain
 #### 18. Object.create and Object.assign
