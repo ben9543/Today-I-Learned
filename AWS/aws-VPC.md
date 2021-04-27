@@ -8,6 +8,16 @@
 
 - [AWS Essentials: Internet Gateways(IGW)](https://www.youtube.com/watch?v=pAOrBxZ7584)
 
+## Key Points
+
+- VPCs are limited to a region but stretch across AZs.
+
+- Subnets can be Private or Public and are limited to a single AZ.
+
+- Subnets must be associated with Route Tables.
+
+- An Internet Gateway route must be address in the Route Table for the internet inbound/outbound
+
 ## Inside of VPC
 
 ![](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=http%3A%2F%2Fcfile29.uf.tistory.com%2Fimage%2F99B007485C5FE87417CB1D)
@@ -25,6 +35,7 @@
 ## Components of VPC
 
 ![](https://www.girishtech.com/wp-content/uploads/2018/10/VPC_Components.png)
+
 
 ### 0. Reserved IP Addresses in AWS VPC
 
@@ -106,4 +117,18 @@
 
     * But with VPC Endpoints, we don't have to go out of VPC when we are accessing to other AWS services
 
-### 10. NAT Gateway
+### 10. Network Address Translation (NAT) Gateway
+
+- NAT Gateway enables instances in a private subnet to connect to the internet or other AWS services, but prevent the internet from initiating a connection to those instances.
+
+- So it is used when private subnets want to communicate with the internet.
+
+- Example Steps
+
+    1. Private subnet B will forward its request to Router.
+
+    2. In private route table, `0.0.0.0/0` is mapped with NAT Gateway.
+
+    3. Then Router will forward traffic to `NAT Gateway` in public subnet.
+
+    4. The traffic will be forwarded out to the internet by NAT configuration of AWS through Router.
