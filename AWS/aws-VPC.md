@@ -26,11 +26,45 @@
 
 ![](https://www.girishtech.com/wp-content/uploads/2018/10/VPC_Components.png)
 
+### 0. Reserved IP Addresses in AWS VPC
+
+- 10.0.0.0: Network portion
+
+- 10.0.0.255: Broadcast IP
+
+- 10.0.0.1: VPC Router
+
+- 10.0.0.2: Internal DNS service
+
+- 10.0.0.3: For future use
+
 ### 1. Subnet
 
-### 2. Route Table
+- Whenever you are creating a subnet, make sure it is a part of your main network.
 
-### 3. Router
+- Example
+
+    * VPC: `10.0.0.1/16`, Subnet: `10.0.1.15/24` => ✅
+
+    * VPC: `10.0.0.1/16`, Subnet: `10.2.0.14/24` => ❌
+
+### 2. Route Table && 3. Router
+
+- When one EC2 wants to communicate with the other:
+
+    1. A sends request through the router.
+
+    2. According to the route table, any IP address under `10.0.0.0/16` will be considered as **local**
+
+    3. If the requested IP address's network portion is not under `10.0.0.0/16`, then the router will forward the packet to IGW
+
+- Public & Private Routing table
+
+    * We can separate the routing table into public and private
+
+    * If the subnet communicate with the Public Routing table, that it becomes a `Public Subnet`
+
+    * If the subnet communicate with the Private Routing table, that it becomes a `Private Subnet`
 
 ### 4. Elastic IP
 
@@ -56,16 +90,20 @@
 
 - It has attached its own unique ID and VPC ID where it is attached.
 
-### 7. Customer Gateway
+### 7. Customer Gateway & VPN Connection & Virtual Private Gateway
 
--
+### 8. VPC Peering
 
-### VPN Connection
+- Connecting two VPCs
 
-### Virtual Private Gateway
+### 9. VPC Endpoints
 
-### VPC Peering
+- Private connections between AWS services
 
-### VPC Endpoints
+- Example
 
-### NAT Gateway
+    * In the past, we had to access S3 go out of the VPC, and pass the internet. Therefore, S3 had to have its public IP
+
+    * But with VPC Endpoints, we don't have to go out of VPC when we are accessing to other AWS services
+
+### 10. NAT Gateway
