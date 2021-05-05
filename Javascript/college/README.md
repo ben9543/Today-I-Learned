@@ -13,3 +13,7 @@
 6. [Module 6 (1)](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/module-6_1)
 
 7. [Module 6 (2)](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/module-6_2)
+
+8. [Module 7](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/module-7)
+
+7. [Module 8](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college/module-8)
