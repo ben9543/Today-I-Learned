@@ -94,11 +94,8 @@ function getArea(shape: Shape) {
     case "circle":
       return Math.PI * shape.radius ** 2;
 
-(parameter) shape: Circle
     case "square":
       return shape.sideLength ** 2;
-
-(parameter) shape: Square
   }
 }
 ```
