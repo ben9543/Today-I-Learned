@@ -60,3 +60,24 @@ function minimumLength<Type extends IType>(
 ```
 
 - In the example, we declared that we are going to return `Type` not `IType`. So the code will end up causing error, even though `Type` extends `IType`.
+
+### Ways to write better generic functions
+
+1. Push Type Parameters Down
+
+2. Use Fewer Type Parameters
+
+3. Type Parameters Should Appear Twice (Some functions don't even need to be generic functions)
+
+## Optional Parameters
+
+```ts
+// The type of x will be `number | undefined`
+function f(x?: number) {
+  // ...
+}
+f(); // OK
+f(10); // OK
+```
+
+- Keep in mind that using optional parameter is same as allowing `some_type | undefined`
