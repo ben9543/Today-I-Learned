@@ -17,7 +17,7 @@
 
 #### 3. ✅ [Narrowing](https://bundy-mundi.github.io/Today-I-Learned/Typescript/3-narrowing)
 
-#### 4. More on Functions
+#### 4. ✅ [More on Functions](https://bundy-mundi.github.io/Today-I-Learned/Typescript/4-more-on-functions)
 
 #### 5. Object Types
 
