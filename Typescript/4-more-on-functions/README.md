@@ -81,3 +81,21 @@ f(10); // OK
 ```
 
 - Keep in mind that using optional parameter is same as allowing `some_type | undefined`
+
+## Declaring `this` in a Function
+
+- Arrow functions catches global `this`.
+
+- To use `this` inside of object functions arrow functions might not be the best choice.
+
+```ts
+const admins = db.filterUsers(function (this: User) {
+  return this.admin;
+});
+const admins2 = db.filterUsers((this: User)=>{ // Error: An arrow function cannot have a 'this' parameter
+  return this.admin;
+});
+const admins3 = db.filterUsers(()=>{
+  return this.admin;  // Error: The containing arrow function captures the global value of 'this'.
+});
+```
