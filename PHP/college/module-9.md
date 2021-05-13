@@ -38,3 +38,55 @@ related records in a related table.
 > **Many to many relationship**: create a junction table
 
 ## 1. MySQL
+
+## What is `SQL`?
+
+- `SQL` stands for **S**tructured **Q**uery **L**anguage
+
+### Advantages
+
+- One of the fastest databases available.
+
+- Useful for both small as well as large databases containing billions of records and terabytes of data in hundreds of thousands of tables.
+
+- Great supports from many dev communities
+
+### Creating Tables
+
+- MySQL reads your command as just one command, not a series.
+
+- `CREATE TABLE table_name`: Creates a table
+
+- `SELECT * from table_name`: Retrieve all data from the table
+
+- `INSERT INTO table_name`: Add row to the table records.
+
+- `DROP TABLE table_name;`: Delete the table
+
+- `SHOW TABLES`: Show all tables in the current database
+
+- `DESCRIBE table_name`: Show all entities of the table
+
+    - `DESC` is an alternative for the syntax.
+
+    - `EXPLAIN table_name`, `SHOW FIELDS FROM table_name` and `SHOW COLUMNS FROM table_name` are all alternatives.
+
+- `INSERT` vs `INSERT INTO`: `INSERT INTO` is standard, but completely optional. In MySQL, it is optional, but for compatibility, it is a good practice to do `INTO`
+
+    - [Stackoverflow: insert vs insert into](https://stackoverflow.com/questions/233919/insert-vs-insert-into)
+
+### Browsing the database
+
+- WHERE
+
+```sql
+SHOW DATABASES WHERE conditions;
+```
+
+- LIKE (% is a wildcard in MySQL)
+
+```sql
+SHOW DATABASES LIKE 'my%';
+```
+
+### More about SELECT 
