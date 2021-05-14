@@ -2,4 +2,4 @@
 
 # PHP Programming
 
-- [How to handle single quotes in SQL queries with PHP](https://bundy-mundi.github.io/Today-I-Learned/PHP/handling-singe-quote)
+- [How to handle single quotes in SQL queries with PHP](https://bundy-mundi.github.io/Today-I-Learned/PHP/handling-single-quote)
