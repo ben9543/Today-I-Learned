@@ -89,4 +89,33 @@ SHOW DATABASES WHERE conditions;
 SHOW DATABASES LIKE 'my%';
 ```
 
-### More about SELECT 
+### More about SELECT
+
+- Giving alias with `AS` command
+
+- We are creating full_name field using `AS`.
+
+```sql
+SELECT
+ CONCAT(last_name,' ', first_name) AS full_name,
+ nickname AS nick
+FROM
+ mytable
+ORDER BY
+ full_name;
+```
+
+|full_name|nick|
+|----|----|
+| BillGates | bill |
+| JustinBieber | JB |
+|...|...|
+
+- Conditionally manipulate DB
+
+- To use wildcard, we need to use `LIKE` instead of normal `=` operator.
+
+```sql
+select * from peopleInfo where gender = 'female';
+select * from peopleInfo where gender LIKE 'f%';
+```
