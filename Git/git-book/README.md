@@ -17,3 +17,5 @@
 8. [Git Config](https://bundy-mundi.github.io/Today-I-Learned/Git/git-book/git-config)
 
 9. [Git Branching-Workflows](https://bundy-mundi.github.io/Today-I-Learned/Git/git-book/git-branching-workflows)
+
+10. [Git Switch](https://bundy-mundi.github.io/Today-I-Learned/Git/git-book/git-switch)
