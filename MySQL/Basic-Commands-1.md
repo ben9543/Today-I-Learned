@@ -2,15 +2,15 @@
 
 [source]("https://www.youtube.com/watch?v=vgIc4ctNFbc&t=364s")
 
-1. SELECT * FROM ...
+## 1. SELECT * FROM ...
 
 - Get every data from current database
 
-2. WHERE
+## 2. WHERE
 
 - Conditional statement
 
-3. BETWEEN ... AND (when the data is number)
+## 3. BETWEEN ... AND (when the data is number)
 
 ```SQL
 SELECT *
@@ -18,7 +18,7 @@ FROM city
 WHERE Population BETWEEN 10000 AND 20000;
 ```
 
-4. IN()
+## 4. IN()
 
 ```SQL
 SELECT *
@@ -26,7 +26,7 @@ FROM city
 WHERE Name IN('Tokyo', 'Seoul');
 ```
 
-5. Sub Query
+## 5. Sub Query
 
 - Nested query
 

@@ -2,7 +2,7 @@
 
 [source]("https://www.youtube.com/watch?v=vgIc4ctNFbc&t=364s")
 
-6. ORDER BY + DESC | ASC(default)
+## 6. ORDER BY + DESC | ASC(default)
 
 - Basic usage
 
@@ -20,7 +20,7 @@ FROM city
 ORDER BY Population DESC, Name ASC, District DESC ... ;
 ```
 
-7. DISTINCT
+## 7. DISTINCT
 
 - Remove occurrence from the data
 
@@ -29,7 +29,7 @@ SELECT DISTICT CountryCode
 FROM city;
 ```
 
-8. LIMIT
+## 8. LIMIT
 
 - Restricts the number of results.
 
@@ -42,7 +42,7 @@ ORDER BY Population DESC
 LIMIT 10;
 ```
 
-9. GROUP BY
+## 9. GROUP BY
 
 - Normally comes with Aggregate Functions like:
     - AVG
@@ -63,7 +63,7 @@ GROUP BY CountryCode;
 
 => Select every cols with row CountryCode and row Population but group whole data by CountryCode and only shows the one has maximum population.
 
-10. HAVING
+## 10. HAVING
 
 - Similar concept with `WHERE`
 

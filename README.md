@@ -28,8 +28,6 @@
 
 # Blog Posts
 
-### [Blockchain](https://bundy-mundi.github.io/Today-I-Learned/Blockchain)
-
 ### [Git & Github](https://bundy-mundi.github.io/Today-I-Learned/Git)
 
 ### [JavaScript](https://bundy-mundi.github.io/Today-I-Learned/Javascript)
@@ -38,11 +36,15 @@
 
 ### [C++](https://bundy-mundi.github.io/Today-I-Learned/C++)
 
+### [MySQL](https://bundy-mundi.github.io/Today-I-Learned/MySQL)
+
 ### [Java](https://bundy-mundi.github.io/Today-I-Learned/Java)
 
 ### [Go](https://bundy-mundi.github.io/Today-I-Learned/Go)
 
 ### [Networking](https://bundy-mundi.github.io/Today-I-Learned/Networking)
+
+### [Blockchain](https://bundy-mundi.github.io/Today-I-Learned/Blockchain)
 
 ### College Works
 

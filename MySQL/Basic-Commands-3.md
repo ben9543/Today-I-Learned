@@ -2,14 +2,14 @@
 
 [source]("https://www.youtube.com/watch?v=vgIc4ctNFbc&t=364s")
 
-11. ROLLUP
+## 11. ROLLUP
 
 - `ROLLUP` is an extension of the `GROUP BY` clause.
 
 - It allows you to include extra rows that represent the subtotals
 
 
-12. JOIN
+## 12. JOIN
 
 - Combines multiple tables into one.
 
