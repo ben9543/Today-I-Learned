@@ -5,3 +5,7 @@
 ### [College](https://bundy-mundi.github.io/Today-I-Learned/Javascript/college)
 
 ### [JS 33 Concepts](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts)
+
+### [Vanilla JS](https://bundy-mundi.github.io/Today-I-Learned/Javascript/Vanilla%20JS/)
+
+### [Node JS](https://bundy-mundi.github.io/Today-I-Learned/Javascript/Node%20JS/)
