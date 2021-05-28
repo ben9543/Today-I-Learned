@@ -78,5 +78,3 @@ const app = express();
 
 app.use(cors()); // This will enable ALL CORS Requests
 ```
-
-2. 
