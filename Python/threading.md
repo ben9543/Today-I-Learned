@@ -41,3 +41,21 @@ print("Done")
 - `join()` basically locks the program until those currently running threads are done.
 
 - If there was no `join` then the program would print out "Done" before the threads finish running their target functions.
+
+- Important thing is that the thread **can join after it gets started.**
+
+- Therefore looping only with `start` and `join` is impossible.
+
+### 3. Assigning multiple threads with loop
+
+```python
+threads = []
+for _ in range(10):
+    t = threading.Thread(target=do_something)
+    t.start()
+    threads.append(t)
+for thread in threads:
+    thread.join()
+```
+
+### 4. Shortcuts with `ThreadPoolExecuter` (Python 3.8)
