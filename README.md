@@ -36,6 +36,8 @@
 
 ### [C++](https://bundy-mundi.github.io/Today-I-Learned/C++)
 
+### [Python](https://bundy-mundi.github.io/Today-I-Learned/Python)
+
 ### [MySQL](https://bundy-mundi.github.io/Today-I-Learned/MySQL)
 
 ### [Java](https://bundy-mundi.github.io/Today-I-Learned/Java)
