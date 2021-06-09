@@ -6,6 +6,8 @@
 - [Prototype vs Class](https://medium.com/@parsyval/javascript-prototype-vs-class-a7015d5473b)
 - [Difference between `call` and `super`](https://stackoverflow.com/questions/38034059/javascript-whats-the-difference-between-call-and-super)
 - [As a JS Developer, This Is What Keeps Me Up at Night](https://www.toptal.com/javascript/es6-class-chaos-keeps-js-developer-up#:~:text=Prototypes%20vs.,is%20itself%20an%20object%20instance.)
+- [MDN: Inheritance and the prototype chain](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
+- [Stackoverflow: __proto__ vs .prototype in JavaScript](https://stackoverflow.com/questions/9959727/proto-vs-prototype-in-javascript#:~:text=31%20Answers&text=prototype%20is%20a%20property%20of,object%2C%20pointing%20to%20its%20prototype.)
 
 ## 1. Prototype Inheritence
 ### What's `prototype`?
@@ -90,3 +92,34 @@ Hi, I'm ben
 
 
 ## 2. Prototype Chain
+
+- So just like we have been discovering so far, `JavaScript` is nothing like other class-based languages (`C++`, `Java`, etc)
+
+### `__proto__` vs `prototype` in JavaScript
+
+- `__proto__` is the **actual object** that is used in the lookup chain to resolve methods, etc. 
+- `prototype` is the object that is used to build `__proto__` when you create an object with `new`
+
+```js
+function Foo(name){
+    this.name = name;
+}
+
+typeof(Foo.prototype) === typeof({}); // true
+typeof(Foo.__proto__) === typeof(Function) // true
+Foo.__proto__() === 'undefined'; // true, if you run the function, it will return undefined's string representation
+
+typeof(( new Foo ).prototype) === typeof(undefined);  // true
+typeof(( new Foo ).__proto__) === typeof({}); // true, now it's an object
+( new Foo ).__proto__ === Foo.prototype; // true, it is an object points its prototype
+
+```
+
+- `( new Foo ).__proto__`: It's an actual `object` that points its `prototype`.
+- `Foo.__proto__`: It's a native `function`. If you run the function, you will get the String representation of `undefined`.
+- `( new Foo ).prototype`: There is **no** `prototype` property for instances.
+- `Foo.prototype`: Returns an **object** that has `constructor` and `__proto__` as its properties.
+
+### Inside of `prototype`
+
+- There is an endless object chaining inside of every object's `prototype` property.
