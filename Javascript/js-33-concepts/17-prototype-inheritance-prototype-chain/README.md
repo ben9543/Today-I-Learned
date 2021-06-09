@@ -123,3 +123,14 @@ typeof(( new Foo ).__proto__) === typeof({}); // true, now it's an object
 ### Inside of `prototype`
 
 - There is an endless object chaining inside of every object's `prototype` property.
+- `prototype` has `constructor` and `__proto__` properties that automatically created by JavaScript engine.
+  
+    - `constructor` has a few properties but the most important properties are `prototype` and `__proto__`
+        - Inside of `prototype`, there is a `constructor` 
+        - `constructor` has a `prototype` property.
+        - Infinite chain...
+
+    - `__proto__` has a `constructor` property.
+      - Inside of a constructor property, there is a `__proto__` property again.
+      - `__proto__` has a constructor property.
+      - Infinte chain...
