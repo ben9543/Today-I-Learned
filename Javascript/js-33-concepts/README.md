@@ -22,8 +22,8 @@
 #### ✅ [14. Factories and Classes](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/14-factories-and-classes)
 #### ✅ [15. this, call, apply and bind](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/15-this-call-apply-bind)
 #### ✅ [16. new, Constructor, instanceof and Instances](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/16-new-instanceof)
-#### [17. Prototype Inheritance and Prototype Chain](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/17-prototype-inheritance-prototype-chain)
-#### [18. Object.create and Object.assign](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts)
+#### ✅ [17. Prototype Inheritance and Prototype Chain](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/17-prototype-inheritance-prototype-chain)
+#### [18. Object.create and Object.assign](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/18-object-create-and-object-assign)
 #### 19. map, reduce, filter
 #### 20. Pure Functions, Side Effects and State Mutation
 #### 21. Closures
