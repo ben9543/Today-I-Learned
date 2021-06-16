@@ -59,3 +59,5 @@ for thread in threads:
 ```
 
 ### 4. Shortcuts with `ThreadPoolExecuter` (Python 3.8)
+
+From video 16:46
