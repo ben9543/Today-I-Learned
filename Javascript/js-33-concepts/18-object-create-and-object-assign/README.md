@@ -57,3 +57,30 @@ console.log(maddie instanceof Dog); // True
 
 
 ## 2. `Object.assign`
+
+- The `Object.assign()` method copies all enumerable own properties from one or more source objects to a target object. It returns the target object.
+
+- Basically the function *copies* objects and merge then into the targeted object(the first parameter of the function).
+
+- This is more straightforward when you look at some examples:
+
+```js
+var obj1 = {a:1};
+var obj2 = {b:2};
+var obj3 = {c:3};
+var newObj = Object.assign({}, obj1, obj2, obj3);
+console.log(newObj); // {a: 1, b: 2, c: 3}
+```
+```js
+const target = { a: 1, b: 2 };
+const source = { b: 4, c: 5 };
+
+const returnedTarget = Object.assign(target, source);
+
+console.log(target);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+console.log(returnedTarget);
+// expected output: Object { a: 1, b: 4, c: 5 }
+
+```
