@@ -27,3 +27,22 @@
 - Coins are locked using a private key, and public key is a value derived by the private key.
 - **A transfer of coin**  in Bitcoin is different with just handing it over to the others. It means the owner electronically transfers the tokens present in his/her present *envelope* to the intended owners(receivers) **by locking these coins to their(receivers) public keys(putting coins in envelopes).**
 - And those coins in the envelope **can only be unlocked by the each intended owner's(receiver) private key(opening an envelope).**
+
+## Bit
+
+- Bitcoin also has provisions to add data to these transactions.
+- It could be any kinds of information such as a text message, an image file, etc.
+
+### 1. OP_RETURN
+
+- [About OP_RETURN](https://en.bitcoin.it/wiki/OP_RETURN)
+
+- Bitcoin from the start was designed to support various sizes of data bytes in a transaction which goes up to about 4 gb per transaction but due to historical reasons most of this capability was restricted in many years of operations of the network.
+
+- Bitcoin transactions input and output contains a script which ahs designated codes to append data.
+
+- `OP_RETURN` is a script opcode used to mark a transaction output as invalid.
+
+### 2. Block and Transaction
+
+- 
