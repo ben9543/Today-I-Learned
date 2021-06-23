@@ -8,9 +8,11 @@
 
 - `SPV` is a lightweight client which only stores the block headers and merkle roots which are the only things needed for verification of a transaction being valid or not.
 
-- [More about SPV](https://wiki.bitcoinsv.io/index.php/Simplified_Payment_Verification)
-
 - Wallet clients typically provide not just key management but also transaction management capabilities.
+
+- `SPV` is simplified payment verification a method which allows a transaction recipient to prove that the sender has control of the source funds of the payment they are offering without downloading the full blockchain.
+
+- [More about SPV](https://wiki.bitcoinsv.io/index.php/Simplified_Payment_Verification)
 
 ### Full node vs SPV node
 
