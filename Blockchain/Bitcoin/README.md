@@ -30,4 +30,6 @@
 
 - [5. ECDSA, Signing and Verification](https://bundy-mundi.github.io/Today-I-Learned/Blockchain/Bitcoin/development/Chapter-2/5-ecdsa-signing-and-verification/)
 
+- [6. Transaction Format and Script](https://bundy-mundi.github.io/Today-I-Learned/Blockchain/Bitcoin/development/Chapter-2/6-transaction-format-and-script/)
+
 ### Fundamental
