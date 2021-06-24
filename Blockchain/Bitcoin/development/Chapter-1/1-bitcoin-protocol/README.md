@@ -1,4 +1,4 @@
-#1. The Bitcoin Protocol
+# 1. The Bitcoin Protocol
 
 ## What is the Bitcoin protocol?
 
