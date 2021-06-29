@@ -24,7 +24,7 @@
 #### ✅ [16. new, Constructor, instanceof and Instances](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/16-new-instanceof)
 #### ✅ [17. Prototype Inheritance and Prototype Chain](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/17-prototype-inheritance-prototype-chain)
 #### ✅ [18. Object.create and Object.assign](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/18-object-create-and-object-assign)
-#### [19. map, reduce, filter](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/18-map-reduce-filter)
+#### [19. map, reduce, filter](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/19-map-reduce-filter)
 #### [20. Pure Functions, Side Effects and State Mutation](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/)
 #### 21. Closures
 #### 22. High Order Functions
