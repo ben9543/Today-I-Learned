@@ -2,14 +2,19 @@
 
 # C++
 
-### [`const` usage](https://bundy-mundi.github.io/Today-I-Learned/C++/const-usage)
+### [1. `const` usage](https://bundy-mundi.github.io/Today-I-Learned/C++/const-usage)
 
-### [Passing by reference](https://bundy-mundi.github.io/Today-I-Learned/C++/passing-by-reference)
+### [2. Passing by reference](https://bundy-mundi.github.io/Today-I-Learned/C++/passing-by-reference)
 
-### [Move Semantics](https://bundy-mundi.github.io/Today-I-Learned/C++/move-semantics)
+### [3. Move Semantics](https://bundy-mundi.github.io/Today-I-Learned/C++/move-semantics)
 
-### [R-value vs L-value](https://bundy-mundi.github.io/Today-I-Learned/C++/rvalue-vs-lvalue)
+### [4. R-value vs L-value](https://bundy-mundi.github.io/Today-I-Learned/C++/rvalue-vs-lvalue)
 
-### [Threading](https://bundy-mundi.github.io/Today-I-Learned/C++/threading)
+### [5. Threading](https://bundy-mundi.github.io/Today-I-Learned/C++/threading)
 
-### [Move Assignment Operator](https://bundy-mundi.github.io/Today-I-Learned/C++/move-assignment-operator)
+### [6. Move Assignment Operator](https://bundy-mundi.github.io/Today-I-Learned/C++/move-assignment-operator)
+
+### 7. `std::vector`
+
+    1. [Useful Vector Methods](https://bundy-mundi.github.io/Today-I-Learned/C++/vector-methods)
+    2. [Vector Iteration](https://bundy-mundi.github.io/Today-I-Learned/C++/vector-iteration)
