@@ -26,7 +26,7 @@
 #### ✅ [18. Object.create and Object.assign](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/18-object-create-and-object-assign)
 #### ✅ [19. map, reduce, filter](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/19-map-reduce-filter)
 #### [20. Pure Functions, Side Effects and State Mutation](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/)
-#### 21. Closures
+#### [21. Closures](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/21-closures)
 #### 22. High Order Functions
 #### 23. Recursion
 #### 24. Collections and Generators

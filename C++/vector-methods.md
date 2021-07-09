@@ -1,4 +1,4 @@
-# `std::vector` methods
+# Useful `std::vector` methods
 
 ## What is `std::vector`?
 
@@ -27,8 +27,9 @@
 
 - `clear()`: Removes all elements in vector.
 
+### Index
 
-
+- `at()`: Gives you the element at the given position.
 
 ### Iterator
 
