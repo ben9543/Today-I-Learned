@@ -9,7 +9,7 @@
 
 - The concept of Promise was first introduced as an alternative of callback functions.
 
-- Promise gives us control over our `async` function and allows us to either resolve or reject an operation request.
+- In ES6, Promise gives us control over our `async` function and allows us to either resolve or reject an operation request.
 
 - Whenever you make Promise you can either **resolve** it or **reject** it.
 
