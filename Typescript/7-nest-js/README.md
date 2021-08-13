@@ -1,5 +1,12 @@
 # Nest JS
 
+## 0. Overview
+
+- `@Module`
+- `@Controller`
+- `@Injectable`
+- Pipe & Guards are associated with `@Injectable()` decorator
+
 ## 1. Controllers
 
 - Accessing express req & res object is not recommended, decorators for each object items are provided by Nest JS by default.
