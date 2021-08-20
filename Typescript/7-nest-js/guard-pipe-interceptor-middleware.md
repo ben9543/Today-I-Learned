@@ -9,7 +9,7 @@
 
 ## 1. Which one gets fired first - Middleware vs Guard vs Interceptor
 
-- Middleware  -> Guard -> Interceptor
+- Ordre: **Middleware  -> Guard -> Interceptor**
 - Middleware and Guard are classes simply logs "From Middleware" & "From Guard".
 - Setting up Guard to App controller.
 
