@@ -30,7 +30,7 @@
 #### 22. High Order Functions
 #### 23. Recursion
 #### 24. Collections and Generators
-#### 25. Promises
+#### [25. Promises](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/25-promises)
 #### 26. async/await
 #### 27. Data Structures
 #### 28. Expensive Operation and Big O Notation
