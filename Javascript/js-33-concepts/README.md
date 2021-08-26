@@ -31,7 +31,7 @@
 #### 23. Recursion
 #### 24. Collections and Generators
 #### [25. Promises](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/25-promises)
-#### 26. async/await
+#### [26. async/await](https://bundy-mundi.github.io/Today-I-Learned/Javascript/js-33-concepts/26-async-await)
 #### 27. Data Structures
 #### 28. Expensive Operation and Big O Notation
 #### 29. Algorithms
